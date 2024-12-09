@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #111E27;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.custom-link {
+    color: white;
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+.custom-link:hover {
+    color: #ccc; 
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+.skills, .achievements {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.skills-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills-columns div {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #111E27;
+    color: white;
+}
+
+@media (min-width: 600px) {
+    .profile {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .profile img {
+        margin-right: 20px;
+    }
+}
