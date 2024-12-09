@@ -95,6 +95,10 @@ footer {
     margin-top: 40px;
 }
 
+.footer-class {
+    margin-top: 4px;
+}
+
 
 @media (min-width: 600px) {
     .profile {
